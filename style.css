@@ -499,16 +499,16 @@ justify-content: space-evenly;
 
 @media screen and (max-width: 2000px) {
     html, body {
-      font-size: 1.8vw; 
+      font-size: 1.2vw; 
     }
 
     #form-card{
-        height: 75vw;
-        width: 65vw;
+        height: 59vw;
+        width: 55vw;
     }
     
     #left{
-        height: 75vw;
+        height: 59vw;
         width: 28vw;
     }
     
