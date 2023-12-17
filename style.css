@@ -73,7 +73,7 @@ h3{
     display: flex;
     flex-direction: row;
     width: 55%;
-    height: 100%;
+    height: 52vw;
     border-radius: 10px;
     /* box-shadow: 0px 5px 15px 0px #0000000D;
     box-shadow: 0px 15px 35px 0px #2B404E18; */
@@ -91,10 +91,9 @@ h3{
 #left{
     display: flex;
     flex-direction: column;
-
     background: #1179BF;
-    width: 25vw;
-    height: 50vw;
+    width: 20vw;
+    height: 52vw;
     padding-left: 0%;
     border-top-right-radius:5px ;  
     border-bottom-right-radius:5px ;     
@@ -112,8 +111,16 @@ h3{
   margin-left: 1vw;
   margin-top: 4vh;
   margin-bottom: 8vh; 
-}
+ }
 
+
+
+ h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+     /* text-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25); */
+
+
+ }
 #bottom-text{
     height: 4vw;
     border-top: 2px solid #EDEFF2;
@@ -139,7 +146,7 @@ h3{
     width: 2vw;
     height: 2vw;
     overflow: hidden;
-    margin-top: 2.5vh;
+    margin-top: 1.8vh;
     margin-right: 1vw;;
 }
 
@@ -152,6 +159,9 @@ h3{
     color: #548BC5 ;
   }
 
+  .text-circle{
+    color: #548BC5;
+  }
   /* Additional styling for demonstration purposes */
   .circle {
     border: 2px solid #548BC5
@@ -161,8 +171,9 @@ h3{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-left: 1vw;
+    margin-left: 3.5vw;
     height: 8vh;
+    margin-top: 1vw;
 }
 
 #name{
@@ -192,7 +203,7 @@ width: 20vw;
  display: flex;
  flex-direction: column;
  flex-wrap: nowrap;
- margin-left:1vw;
+ margin-left:3.5vw;
  margin-bottom: 1.5vw;
 }
 
@@ -215,7 +226,7 @@ width: 20vw;
     width: 25vw;  
     display: flex;
    flex-direction: row;
-    margin-left:1vw;
+    margin-left:3.5vw;
     justify-content: space-around;
 }
 input{
@@ -228,8 +239,8 @@ border-radius: 3px;
   margin-top: 0.5vw;
 }
     
-    #creditCard label{
-    margin-left: 1vw;
+#creditCard label{
+    margin-left: 3.5vw;
     margin-top: 1vw;
    }
 
@@ -255,13 +266,13 @@ border-radius: 3px;
     color: white;
     padding: 12px;
     margin: 2vw 0;
-    margin-left: 2vw;;
+    margin-left: 4vw;;
     border: none;
-    width: 85%;
+    width: 70%;
     cursor: pointer;
     font-size: 17px;
     border-radius: 3px;
-    height: 5vh;
+    height: 4.5vh;
 }
 
 
@@ -292,7 +303,12 @@ border-radius: 3px;
     }
 #foot-btn{
   margin-top: 1vw;
-  margin-left: 9vw;;
+  margin-left: 9vw;
+  background: rgb(159, 161, 163);
+  border-radius: 5px;
+color: #FFFFFF;
+font-size: 1vw;
+border: none;
 }
 
 .ft-circle{
@@ -330,8 +346,9 @@ border-radius: 3px;
 
   /* stylying for the right side*/
 
+  
   #colum-1{
-    margin-left: 2vw;
+    margin-left: 3vw;
     width: 12vw;
     display: flex;
     flex-direction: column;
@@ -342,12 +359,15 @@ border-radius: 3px;
 
   }
 
-  #colum-1, h4{
+  #colum-1, h3{
     width: 8vw;
     margin-top: 5vw;;
     margin-bottom: 0;
   }
-
+i{
+    font-size: smaller;
+    width: 10vw;
+}
   #colum-1, h3{
       margin-bottom:0;
       font-family: 'Lato', sans-serif;
@@ -361,9 +381,452 @@ border-radius: 3px;
   }
 
   #colum-2{
-    margin-top: 5vw;;
-  }
-  
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    color: #EDEFF2;
+     justify-content: center;
+}
+
   h3{
     margin-top: 1vw;
   }
+ 
+#colum2-tick{
+  width: 11vw;
+  display: inline-block;
+  margin-bottom: 1.2vw;
+
+}
+
+  .r-circle{
+    display: inline-block;
+    text-align: center;
+  align-items: center;
+    position: relative;
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    overflow: hidden;
+    margin-top: 0vw;
+    margin-right: 0.4vw;
+    margin-top: 0;
+    color: #EDEFF2;
+    }
+
+.r-circle h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+
+  }
+
+  /* Additional styling for demonstration purposes */
+  .r-circle {
+    border: 2px solid #EDEFF2;
+  }
+
+  #r-4{
+    color:#EDEFF2;
+    font-size: 10px;
+ }
+
+
+  #col2-txt{
+
+  }
+
+  #col2-a {
+    color: #EDEFF2;
+    margin-bottom: 2vw;
+    width: 5vw;
+    text-decoration: underline;
+    text-decoration-color:#B9F5FF;
+    transition: 1s;
+  }
+
+  #col2-a:hover{
+    color: #EDEFF2;
+    /* padding: 0%; */
+    background: #1179BF;
+    border:none;
+    text-decoration: underline;
+  }
+
+  #column-3{
+    padding-top: 3vw;;
+    margin-left: 3vw;
+    width: 13vw;
+    margin-right: 2vw;
+    color:#EDEFF2;
+    margin-top: 2vw;;
+   border-top: 0.1px solid #B9F5FF;
+}
+
+#colum-h5{
+}
+
+
+
+#l-footer{
+    width: 10vw;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-left: 0;
+left: 0;
+justify-content: space-evenly;
+}
+
+
+#left-img{
+    margin-top: 2vw;
+    border-radius: 50%;
+    height: 3vw;
+}
+
+#img-p{
+    margin-bottom:0vw;
+    height: 1vw;
+    width: 10vw;
+   margin-top: 3vw;
+   margin-left: 1vw;
+}
+
+
+@media screen and (max-width: 2000px) {
+    html, body {
+      font-size: 1.8vw; 
+    }
+
+    #form-card{
+        height: 75vw;
+        width: 65vw;
+    }
+    
+    #left{
+        height: 75vw;
+        width: 28vw;
+    }
+    
+    #column-3{
+        width: 20vw;
+       }
+
+       #colum2-tick{
+        width: 18vw;
+        font-size:0.5;
+        display: inline-block;
+        margin-bottom: 1.2vw;
+      
+      }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    html, body {
+      font-size: 1.8vw; 
+    }
+
+  #navbar {
+    flex-direction: column;
+}
+
+#form-card{
+    height: 75vw;
+    width: 65vw;
+}
+
+#left{
+    height: 75vw;
+    width: 28vw;
+}
+
+#colum2-tick{
+    width: 18vw;
+    font-size:0.5;
+    display: inline-block;
+    margin-bottom: 1.2vw;
+  
+  }
+
+
+  .r-circle{
+    width: 1.4vw;
+    height: 1.4vw;
+     }
+
+
+     #col2-txt{
+        font-size: 1vw;
+     }
+
+    #col2-a{
+        font-size: 1vw;
+    }
+
+   #column-3{
+    width: 18vw;
+   }
+
+   .btn{
+    background-color: #038E7D;
+    color: white;
+    padding: 5px;
+    margin: 2vw 0;
+    margin-left: 4vw;;
+    border: none;
+    width: 70%;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 3px;
+    height: 3vh;
+}
+
+
+}
+
+
+@media screen and (max-width: 550px) {
+    html, body {
+      font-size: 1.8vw; 
+    }
+   
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #form-card{
+        margin-top: 100px;
+        height: 80vw;
+        width: 75vw;
+    }
+    
+  .name-section{
+  }
+
+    #left{
+        height: 80vw;
+        width: 28vw;
+    }
+
+     #left-text{
+        margin-top: 8vw;
+     }
+
+    #colum2-tick{
+        width: 18vw;
+        font-size:0.5;
+        display: inline-block;
+        margin-bottom: 1.2vw;
+      
+      }
+     
+      #pay-section{
+        width: 10
+      }
+
+   #creditCard{ 
+    margin-left: 2vw;
+    }
+
+
+    #basic-info{
+        padding-left: 2vw;;
+    }
+
+      .circle{
+         width: 2.5vw;
+        height: 2.5vw;
+        overflow: hidden;
+        margin-top: 1.4vh;
+        margin-right: 1vw;;
+    }
+
+
+      .ft-circle{
+        width: 1.5vw;
+        height: 1.5vw;
+        overflow: hidden;
+        margin-top: 0vw;
+        }
+    
+   
+      .r-circle{
+        width: 1.8vw;
+        height: 1.8vw;
+         }
+    
+    
+         #col2-txt{
+            font-size: 1vw;
+         }
+    
+        #col2-a{
+            font-size: 1vw;
+        }
+    
+       #column-3{
+        width: 18vw;
+       }
+       
+       #basic-info{
+        height: 4vh;
+    }
+
+    #email-box{
+        margin-left: 6vw;;
+    }
+
+  input{
+    font-size: 1.6vw;
+  }
+#expirationDate{
+    width:6vw;
+}
+  #cvv{
+    width: 5vw;
+  }
+#credit-input{
+    width: 30vw;
+}
+
+}
+
+
+@media screen and (max-width: 425px) {
+    html, body {
+      font-size: 1.8vw; 
+    }
+
+ 
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #form-card{
+        display: flex;
+        margin-top: 100px;
+        height: 90vw;
+        width: 75vw;
+    }
+    
+  .name-section{
+  }
+
+    #left{
+        height: 90vw;
+        width: 28vw;
+    }
+
+     #left-text{
+        margin-top: 8vw;
+     }
+
+    #colum2-tick{
+        width: 18vw;
+        font-size:0.5;
+        display: inline-block;
+        margin-bottom: 1.2vw;
+      
+      }
+     
+      #pay-section{
+    
+        width: 10
+      }
+
+   #creditCard{ 
+    margin-left: 2vw;
+    }
+
+
+    #basic-info{
+        padding-left: 2vw;;
+    }
+
+      .circle{
+         width: 2.5vw;
+        height: 2.5vw;
+        overflow: hidden;
+        margin-top: 1.4vh;
+        margin-right: 1vw;;
+    }
+
+
+      .ft-circle{
+        width: 1.5vw;
+        height: 1.5vw;
+        overflow: hidden;
+        margin-top: 0vw;
+        }
+    
+   
+      .r-circle{
+        width: 1.8vw;
+        height: 1.8vw;
+         }
+
+         .btn{
+            background-color: #038E7D;
+            color: white;
+            padding: 4px;
+            margin: 2vw 0;
+            margin-left: 4vw;;
+            border: none;
+            width: 70%;
+            cursor: pointer;
+            font-size: 6px;
+            border-radius: 3px;
+            height: 2vh;
+        }
+
+
+        #foot-btn{
+            margin-top: 1vw;
+            margin-left: 9vw;
+            /* background: #566473; */
+            border-radius: 5px;
+          background-color: #DADADA;
+           font-size: 1.8vw;
+           color: #FFFFFF;
+          }
+
+         #col2-txt{
+            font-size: 1vw;
+         }
+    
+        #col2-a{
+            font-size: 1vw;
+        }
+    
+       #column-3{
+        width: 18vw;
+       }
+       
+       #basic-info{
+        height: 4vh;
+    }
+
+    #email-box{
+        margin-left: 6vw;;
+    }
+
+  input{
+    font-size: 1.6vw;
+  }
+#expirationDate{
+    width:6vw;
+}
+  #cvv{
+    width: 5vw;
+  }
+#credit-input{
+    width: 30vw;
+}
+
+}
