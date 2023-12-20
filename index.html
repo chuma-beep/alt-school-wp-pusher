@@ -15,18 +15,28 @@
    <title>WP Pusher</title>
 </head>
 <body>
-    <div>
+
+<!--Navigation menu-->
+    
         <nav id="navbar" class="navbar">
-           <a src=""> <img src="image/wppusher-logo copy.png"></a>
+            <span class="logo">
+                       <a> <img src="image/wppusher-logo copy.png" id="logo" ></a>
+            </span>
             <ul>
                 <li><a href="#">Download</a></li>
-    <li><a href="#">Learn more</a></li>
+    <li id="nav-txt"><a href="#">Learn more</a></li>
     <li><a href="#">Pricing</a></li>
     <li><a href="#">Help</a></li>
-    <li><a>Account</a></li>
-</ul>        </nav>
+    <button id="nav-btn">Account</button>
+</ul>      
+      
+  </nav>  
+<hr>
 
-<div id="main">
+
+  <!--Main menus-->
+<main id="main">
+    <!--form-->
     <div id="form-card">
         <div id="right">
              <form>
@@ -73,7 +83,8 @@
                  
                    <div id="footer">
                    <div id="footer-text"><span class="ft-circle"><h4>?</h4></span><span><h5 id="help">Need any help?</h5> <p>Don't hesitate to contact support!</p></span></div>
-                       <button id="foot-btn"> powered by <span>stripe</span></button>
+                      <img id="foot-btn" src="image/powered_by_stripe.png">  
+                   <!-- <button id="foot-btn"> powered by <span>stripe</span></button> -->
                     </div>
              
                     </form>
@@ -110,6 +121,13 @@
    
     </div>
 </div>
-</div>
+</main>
+
+
+<footer id="foot">
+    <div id="terms-txt">
+    <p id="terms-txt">Copyright © 2018 WP Pusher IVS <span id="centeredstop">.</span>  <a id="terms">Terms of Service</a></p>
+    </div>
+</footer>
 </body>
 </html>

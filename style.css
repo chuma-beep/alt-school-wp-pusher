@@ -10,7 +10,8 @@ html, body{
 font-family: 'Montserrat', sans-serif;
 /* font-family: 'Roboto', sans-serif; */
  background: #F5F8FA;
-
+ display: flex;
+ flex-direction:column ;
 }
 
 #navbar {
@@ -18,16 +19,26 @@ font-family: 'Montserrat', sans-serif;
     flex-direction: row;
     width: 100%;
     margin-top: 0.9vw;
-    border-bottom: 1px solid #E0E6EA;
+    /* border-bottom: 2px solid #E0E6EA; */
     
 }
-   
-
+   hr{
+    border: none;
+    border-top: 2px solid #E0E6EA;
+    margin: 20px 0; 
+    width: 95%;
+    align-self: center;
+   }
+#logo{
+    max-width: 80%;
+    height: auto;
+}
 
 #navbar ul{
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    flex-wrap: nowrap;
     color: #1D2C3C;
 
 }
@@ -35,28 +46,52 @@ font-family: 'Montserrat', sans-serif;
 ul{
     margin-left: auto;
     list-style: none;
+   
 }
 
 li{
-    padding:1vw;
-    padding-top: 0%;
-}
 
+    padding:1vw;
+    color: #1D2C3C;
+}
+#nav-txt{
+  color: #1D2C3C;
+}
 a{
     text-decoration: none;
     color: #1D2C3C;
-
-}
+ }
 a:hover{
-    padding:8px 12px;
+    /* margin-top: 0%;
+    padding:8px 12px; */
+    /* font-size: 0.8vw; */
+    /* border: 1px solid #1D2C3C;
+    background: #F5F8FA;
+    border-radius: 10px; */
+ } 
+
+h3{
+    margin-top: 3vh;
+}
+
+#nav-btn{
+    padding:1vw 3vw;
     /* font-size: 0.8vw; */
     border: 1px solid #1D2C3C;
     background: #F5F8FA;
     border-radius: 10px;
+    margin-right:1vh;
 }
 
-h3{
-    margin-top: 3vh;
+
+.logo, a{
+  margin-top: 1vh;
+  margin-left: 1vh;
+    text-decoration: none;
+  }
+.logo,a:hover{
+    text-decoration: none;
+      pointer-events: none; 
 }
 
 #main{
@@ -303,9 +338,7 @@ border-radius: 3px;
     }
 #foot-btn{
   margin-top: 1vw;
-  margin-left: 9vw;
-  background: rgb(159, 161, 163);
-  border-radius: 5px;
+  margin-left: 11vw;
 color: #FFFFFF;
 font-size: 1vw;
 border: none;
@@ -364,10 +397,12 @@ border: none;
     margin-top: 5vw;;
     margin-bottom: 0;
   }
+  
 i{
     font-size: smaller;
-    width: 10vw;
+    width: 10vw; 
 }
+
   #colum-1, h3{
       margin-bottom:0;
       font-family: 'Lato', sans-serif;
@@ -497,6 +532,52 @@ justify-content: space-evenly;
 }
 
 
+#foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top:15vw;
+    width: 100vw;
+   height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#terms-txt{
+  color: #31708F;
+  display: flex;
+  flex-direction: row;
+   width: 100vw;
+   justify-content: center;
+}
+
+#terms{
+  margin:0;
+}
+
+#terms,a{
+   text-decoration: none;
+}
+#terms,a:hover{
+    text-decoration: none;
+    pointer-events: none; 
+}
+
+
+#centeredstop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  margin-left:2vw;
+  margin-right: 2vw;
+    font-size: 2vw;
+}
+
+
+
 @media screen and (max-width: 2000px) {
     html, body {
       font-size: 1.2vw; 
@@ -532,9 +613,6 @@ justify-content: space-evenly;
       font-size: 1.8vw; 
     }
 
-  #navbar {
-    flex-direction: column;
-}
 
 #form-card{
     height: 75vw;
@@ -545,6 +623,9 @@ justify-content: space-evenly;
     height: 75vw;
     width: 28vw;
 }
+
+
+
 
 #colum2-tick{
     width: 18vw;
@@ -588,6 +669,16 @@ justify-content: space-evenly;
 }
 
 
+#foot-btn{
+    margin-top: 1vw;
+    margin-left: 11vw;
+  color: #FFFFFF;
+  font-size: 1vw;
+  border: none;
+  }
+  
+
+
 }
 
 
@@ -596,10 +687,12 @@ justify-content: space-evenly;
       font-size: 1.8vw; 
     }
    
-    #navbar {
-        flex-direction: column;
+    #logo{
+    max-width: 50%;
+    height: auto;
     }
-    
+
+
     #form-card{
         margin-top: 100px;
         height: 80vw;
@@ -694,6 +787,16 @@ justify-content: space-evenly;
 #credit-input{
     width: 30vw;
 }
+/* 
+#foot-btn{
+    margin-top: 1vw;
+    margin-left: 11vw;
+  color: #FFFFFF;
+  font-size: 0.5vw;
+  border: none;
+  }
+   */
+
 
 }
 
@@ -703,10 +806,16 @@ justify-content: space-evenly;
       font-size: 1.8vw; 
     }
 
- 
-    #navbar {
-        flex-direction: column;
-    }
+  #navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+    #logo{
+        max-width: 50%;
+        height: auto;
+        }
     
     #form-card{
         display: flex;
@@ -828,5 +937,18 @@ justify-content: space-evenly;
 #credit-input{
     width: 30vw;
 }
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+    html, body {
+      font-size: 1.8vw; 
+    }
+  
+    #form-card{
+        height:
+    }
 
 }
