@@ -19,9 +19,7 @@ flex-direction:column ;
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-top: 0.9vw;
-  /* border-bottom: 2px solid #E0E6EA; */
-  
+  margin-top: 0.9vw;  
 }
 
  hr{
@@ -66,12 +64,8 @@ a{
   color: #1D2C3C;
 }
 a:hover{
-  /* margin-top: 0%;
-  padding:8px 12px; */
-  /* font-size: 0.8vw; */
-  /* border: 1px solid #1D2C3C;
-  background: #F5F8FA;
-  border-radius: 10px; */
+  color: #1179BF;
+  border-radius: 10px; 
 } 
 
 h3{
@@ -100,7 +94,7 @@ margin-left: 1vh;
   text-decoration: none;
     pointer-events: none; 
 }
-/* man */
+/* main */
 #main{
   display: flex;
   justify-content: center;
@@ -110,7 +104,7 @@ margin-left: 1vh;
   padding-right: 0%;
 }
 
-
+/*form card*/
 #form-card{
   display: flex;
   flex-direction: row;
@@ -118,9 +112,9 @@ margin-left: 1vh;
   height: 52vw;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
+/*dimensions for right side*/
 #right{
   width: 50vw;
   margin-left: 0vw;
@@ -128,6 +122,7 @@ margin-left: 1vh;
   
 }
 
+/*dimensions for left side*/
 #left{
   display: flex;
   flex-direction: column;
@@ -139,6 +134,8 @@ margin-left: 1vh;
   border-bottom-right-radius:5px ;     
 }
 
+
+/*styling for left side*/
 #head-text{
    border-bottom: 2px solid #EDEFF2;
    border-top: 2px solid #EDEFF2;
@@ -232,10 +229,6 @@ justify-content: space-around;
 #fname{
 padding-right:1vw;
 }
-/* 
-#lname{
-  
-} */
 
 #email-box{
 width: 20vw; 
@@ -332,7 +325,6 @@ margin-top: 0.5vw;
       }   
 
 #footer, h5{
-/* font-weight: 200;   */
 font-size: smaller; 
 display: inline;     
       }
@@ -502,11 +494,6 @@ align-items: center;
  border-top: 0.1px solid #B9F5FF;
 }
 
-/* #colum-h5{
-} */
-
-
-
 #l-footer{
   width: 10vw;
 display: flex;
@@ -671,7 +658,6 @@ border: none;
 }
 
 
-
 }
 
 
@@ -780,20 +766,9 @@ input{
 #credit-input{
   width: 30vw;
 }
-/* 
-#foot-btn{
-  margin-top: 1vw;
-  margin-left: 11vw;
-color: #FFFFFF;
-font-size: 0.5vw;
-border: none;
-}
- */
-
-
 }
 
-/*for phonees*/
+/*for smaller screens*/
 @media screen and (max-width: 425px) {
   html, body {
     font-size: 1.8vw; 
@@ -817,9 +792,6 @@ border: none;
       width: 75vw;
   }
   
-.name-section{
-}
-
   #left{
       height: 90vw;
       width: 28vw;
@@ -838,8 +810,7 @@ border: none;
     }
    
     #pay-section{
-  
-      width: 10
+        width: 10
     }
 
  #creditCard{ 
@@ -930,18 +901,5 @@ input{
 #credit-input{
   width: 30vw;
 }
-
-}
-
-
-
-@media screen and (max-width: 425px) {
-  html, body {
-    font-size: 1.8vw; 
-  }
-
-  #form-card{
-      height:
-  }
 
 }
