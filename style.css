@@ -1,268 +1,272 @@
 
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 /* font-family: 'Roboto', sans-serif; */
- background: #F5F8FA;
- display: flex;
- flex-direction:column ;
+background: #F5F8FA;
+display: flex;
+flex-direction:column ;
 }
 
+/*nav */
 #navbar {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 0.9vw;
-    /* border-bottom: 2px solid #E0E6EA; */
-    
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 0.9vw;
+  /* border-bottom: 2px solid #E0E6EA; */
+  
 }
-   hr{
-    border: none;
-    border-top: 2px solid #E0E6EA;
-    margin: 20px 0; 
-    width: 95%;
-    align-self: center;
-   }
+
+ hr{
+  border: none;
+  border-top: 2px solid #E0E6EA;
+  margin: 20px 0; 
+  width: 95%;
+  align-self: center;
+ }
+
 #logo{
-    max-width: 80%;
-    height: auto;
+  max-width: 80%;
+  height: auto;
+  margin-top: 1vw;
 }
 
 #navbar ul{
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    flex-wrap: nowrap;
-    color: #1D2C3C;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  flex-wrap: nowrap;
+  color: #1D2C3C;
 
 }
 
 ul{
-    margin-left: auto;
-    list-style: none;
-   
+  margin-left: auto;
+  list-style: none;
+ 
 }
 
 li{
 
-    padding:1vw;
-    color: #1D2C3C;
-}
-#nav-txt{
+  padding:1vw;
   color: #1D2C3C;
 }
+#nav-txt{
+color: #1D2C3C;
+}
 a{
-    text-decoration: none;
-    color: #1D2C3C;
- }
+  text-decoration: none;
+  color: #1D2C3C;
+}
 a:hover{
-    /* margin-top: 0%;
-    padding:8px 12px; */
-    /* font-size: 0.8vw; */
-    /* border: 1px solid #1D2C3C;
-    background: #F5F8FA;
-    border-radius: 10px; */
- } 
+  /* margin-top: 0%;
+  padding:8px 12px; */
+  /* font-size: 0.8vw; */
+  /* border: 1px solid #1D2C3C;
+  background: #F5F8FA;
+  border-radius: 10px; */
+} 
 
 h3{
-    margin-top: 3vh;
+  margin-top: 3vh;
 }
 
-#nav-btn{
-    padding:1vw 3vw;
-    /* font-size: 0.8vw; */
-    border: 1px solid #1D2C3C;
-    background: #F5F8FA;
-    border-radius: 10px;
-    margin-right:1vh;
+.nav-btn{
+  padding:0.2vw 1.5vw;
+  /* font-size: 0.8vw; */
+  border: 2px solid #1D2C3C;
+  background: #F5F8FA;
+  border-radius: 10px;
+  margin-right:1vh;
+  height: 5vh;
+  margin-top: 0.8vh;
+  font-size: 1.2vw;
 }
 
 
 .logo, a{
-  margin-top: 1vh;
-  margin-left: 1vh;
-    text-decoration: none;
-  }
-.logo,a:hover{
-    text-decoration: none;
-      pointer-events: none; 
+margin-top: 1vh;
+margin-left: 1vh;
+  text-decoration: none;
 }
-
+.logo,a:hover{
+  text-decoration: none;
+    pointer-events: none; 
+}
+/* man */
 #main{
-    display: flex;
-    justify-content: center;
-    margin-top: 4vw;
-    height: 50vw;
-    /* width: 90%; */
-    padding-right: 0%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+  height: 50vw;
+  /* width: 90%; */
+  padding-right: 0%;
 }
 
 
 #form-card{
-    display: flex;
-    flex-direction: row;
-    width: 55%;
-    height: 52vw;
-    border-radius: 10px;
-    /* box-shadow: 0px 5px 15px 0px #0000000D;
-    box-shadow: 0px 15px 35px 0px #2B404E18; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  height: 52vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 #right{
-    width: 50vw;
-    margin-left: 0vw;
-    height:50vw;
-    
+  width: 50vw;
+  margin-left: 0vw;
+  height:50vw;
+  
 }
 
 #left{
-    display: flex;
-    flex-direction: column;
-    background: #1179BF;
-    width: 20vw;
-    height: 52vw;
-    padding-left: 0%;
-    border-top-right-radius:5px ;  
-    border-bottom-right-radius:5px ;     
+  display: flex;
+  flex-direction: column;
+  background: #1179BF;
+  width: 20vw;
+  height: 52vw;
+  padding-left: 0%;
+  border-top-right-radius:5px ;  
+  border-bottom-right-radius:5px ;     
 }
 
 #head-text{
-     border-bottom: 2px solid #EDEFF2;
-     border-top: 2px solid #EDEFF2;
-     height:12vh;
+   border-bottom: 2px solid #EDEFF2;
+   border-top: 2px solid #EDEFF2;
+   height:12vh;
 
 }
 
 
 #head-text h2{
-  margin-left: 1vw;
-  margin-top: 4vh;
-  margin-bottom: 8vh; 
- }
+margin-left: 1vw;
+margin-top: 4vh;
+margin-bottom: 8vh; 
+}
 
 
 
- h2{
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-     /* text-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25); */
+h2{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
 
 
- }
 #bottom-text{
-    height: 4vw;
-    border-top: 2px solid #EDEFF2;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  height: 4vw;
+  border-top: 2px solid #EDEFF2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 #bottom-text h2{
-    margin-left: 1vw;
-    padding-top: 5vw;
-    margin-bottom: 4vh; 
+  margin-left: 1vw;
+  padding-top: 5vw;
+  margin-bottom: 4vh; 
 }
 
 #pay-section{
-    padding-bottom: 2vw;
-    border-bottom: 2px solid #EDEFF2;
+  padding-bottom: 2vw;
+  border-bottom: 2px solid #EDEFF2;
 }
 
 .circle{
-    display: inline-block;
-    position: relative;
-    border-radius: 50%;
-    width: 2vw;
-    height: 2vw;
-    overflow: hidden;
-    margin-top: 1.8vh;
-    margin-right: 1vw;;
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  overflow: hidden;
+  margin-top: 1.8vh;
+  margin-right: 1vw;;
 }
 
 .circle h4{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    color: #548BC5 ;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  color: #548BC5 ;
+}
 
-  .text-circle{
-    color: #548BC5;
-  }
-  /* Additional styling for demonstration purposes */
-  .circle {
-    border: 2px solid #548BC5
-  }
+.text-circle{
+  color: #548BC5;
+}
+
+.circle {
+  border: 2px solid #548BC5
+}
 
 #basic-info{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 3.5vw;
-    height: 8vh;
-    margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left:3.5vw;
+  height: 8vh;
+  margin-top: 1vw;
 }
 
 #name{
- width: 70%;   
- display: flex;
- flex-direction: row;
- flex-wrap: nowrap;
- margin-left:4.5vw;
- margin-bottom: 1.5vw;
- justify-content: space-around;
+width: 70%;   
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+margin-left:5.8vw;
+margin-bottom: 1.5vw;
+justify-content: space-around;
 }
 
 #name input{
-    width: 13vw;
-    height: 2vw;;
+  width: 13vw;
+  height: 2vw;;
 }
 #fname{
-  padding-right:1vw;
+padding-right:1vw;
 }
-
+/* 
 #lname{
-    
-}
+  
+} */
 
 #email-box{
 width: 20vw; 
- display: flex;
- flex-direction: column;
- flex-wrap: nowrap;
- margin-left:3.5vw;
- margin-bottom: 1.5vw;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+margin-left:3.5vw;
+margin-bottom: 1.5vw;
 }
 
 #email-box input{
-    height: 2vw; 
-    border-radius: 3px
-    
+  height: 2vw; 
+  border-radius: 3px
+  
 }
 
 #creditCard{
-    width: 70%;   
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left:0vw;
-    justify-content: space-around;
+  width: 70%;   
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left:0vw;
+  justify-content: space-around;
 }
 
 #credit-input{
-    width: 25vw;  
-    display: flex;
-   flex-direction: row;
-    margin-left:3.5vw;
-    justify-content: space-around;
+  width: 25vw;  
+  display: flex;
+ flex-direction: row;
+  margin-left:3.5vw;
+  justify-content: space-around;
 }
 input{
 background: #EDEFF2;
@@ -271,243 +275,240 @@ border-radius: 3px;
 }
 
 .label{
-  margin-top: 0.5vw;
+margin-top: 0.5vw;
 }
-    
+  
 #creditCard label{
-    margin-left: 3.5vw;
-    margin-top: 1vw;
-   }
+  margin-left: 3.5vw;
+  margin-top: 1vw;
+ }
 
 #cardNumber{
-    width:25vw;
+  width:25vw;
 }
 
 #cvv{
-    width:3.5vw;
+  width:3.5vw;
 }
 
 
 
 #expirationDate{
-    width:3.5vw;
-    height: 2.5vw;
+  width:3.5vw;
+  height: 2.5vw;
 }
 
 
 
-.btn{
-    background-color: #038E7D;
-    color: white;
-    padding: 12px;
-    margin: 2vw 0;
-    margin-left: 4vw;;
-    border: none;
-    width: 70%;
-    cursor: pointer;
-    font-size: 17px;
-    border-radius: 3px;
-    height: 4.5vh;
+#btn{
+  background-color: #038E7D;
+  color: white;
+  padding: 0.5vw;
+  margin: 2vw 0;
+  margin-left: 4vw;;
+  border: none;
+  width: 70%;
+  cursor: pointer;
+  font-size: 1.2vw;
+  border-radius: 3px;
+  height: 4.4vh;
+  display: 1nlie-block;
 }
 
 
 #footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left:3vw;
-    height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left:3vw;
+  height: 5vw;
 }
 
 #footer,p{
-    font-size: 0.7vw;
-      width: 3vw;
-        margin-bottom: 2vw;;
-      display: inline;
-        }   
+  font-size: 0.7vw;
+    width: 3vw;
+      margin-bottom: 2vw;;
+    display: inline;
+      }   
 
 #footer, h5{
-  /* font-weight: 200;   */
-  font-size: smaller; 
-  display: inline;     
-        }
- #help{
-    font-family: 'Lato', sans-serif;
-    font-family: 'Onest', sans-serif;
+/* font-weight: 200;   */
+font-size: smaller; 
+display: inline;     
+      }
+#help{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Onest', sans-serif;
 
-    }
+  }
 #foot-btn{
-  margin-top: 1vw;
-  margin-left: 11vw;
+margin-top: 1vw;
+margin-left: 11vw;
 color: #FFFFFF;
 font-size: 1vw;
 border: none;
 }
 
 .ft-circle{
-    display: inline-block;
-    position: relative;
-    border-radius: 50%;
-    width: 1.5vw;
-    height: 1.5vw;
-    overflow: hidden;
-    margin-top: 0vw;
-    margin-right: 0.5vw;
-    margin-top: 0.5;
-    }
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  width: 1.5vw;
+  height: 1.5vw;
+  overflow: hidden;
+  margin-top: 0vw;
+  margin-right: 0.5vw;
+  margin-top: 0.5;
+  }
 
 .ft-circle h4{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
-    color: #548BC5 ;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  color: #548BC5 ;
+}
 
-  /* Additional styling for demonstration purposes */
-  .ft-circle {
-    border: 2px solid #548BC5
-  }
+/* Additional styling for demonstration purposes */
+.ft-circle {
+  border: 2px solid #548BC5
+}
 
- #footer-text{
-    margin-left: 0vw;
-    padding-left:0 ;
-    display: flex;
-    justify-content: center;
-  }
+#footer-text{
+  margin-left: 0vw;
+  padding-left:0 ;
+  display: flex;
+  justify-content: center;
+}
 
-  /* stylying for the right side*/
+/* stylying for the right side*/
 
-  
-  #colum-1{
-    margin-left: 3vw;
-    width: 12vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; 
-    padding: 0;
-    color: #FFFFFF;
-  margin-top: 4vw;
 
-  }
+#colum-1{
+  margin-left: 3vw;
+  width: 12vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  padding: 0;
+  color: #FFFFFF;
+margin-top: 4vw;
 
-  #colum-1, h3{
-    width: 8vw;
-    margin-top: 5vw;;
-    margin-bottom: 0;
-  }
-  
+}
+
+#colum-1, h3{
+  width: 8vw;
+  margin-top: 5vw;;
+  margin-bottom: 0;
+}
+
 i{
-    font-size: smaller;
-    width: 10vw; 
+  font-size: smaller;
+  width: 10vw; 
 }
 
-  #colum-1, h3{
-      margin-bottom:0;
-      font-family: 'Lato', sans-serif;
-  }
-  #colum-1,h5{
-   margin-top: 1vw;;
-  }
-  #big-num{
+#colum-1, h3{
+    margin-bottom:0;
     font-family: 'Lato', sans-serif;
-    font-size: 250%;
-  }
-
-  #colum-2{
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 3vw;
-    margin-top: 5vw;
-    color: #EDEFF2;
-     justify-content: center;
+}
+#colum-1,h5{
+ margin-top: 1vw;;
+}
+#big-num{
+  font-family: 'Lato', sans-serif;
+  font-size: 250%;
 }
 
-  h3{
-    margin-top: 1vw;
-  }
- 
+#colum-2{
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3vw;
+  margin-top: 5vw;
+  color: #EDEFF2;
+   justify-content: center;
+}
+
+h3{
+  margin-top: 1vw;
+}
+
 #colum2-tick{
-  width: 11vw;
-  display: inline-block;
-  margin-bottom: 1.2vw;
+width: 11vw;
+display: inline-block;
+margin-bottom: 1.2vw;
 
 }
 
-  .r-circle{
-    display: inline-block;
-    text-align: center;
-  align-items: center;
-    position: relative;
-    border-radius: 50%;
-    width: 1vw;
-    height: 1vw;
-    overflow: hidden;
-    margin-top: 0vw;
-    margin-right: 0.4vw;
-    margin-top: 0;
-    color: #EDEFF2;
-    }
+.r-circle{
+  display: inline-block;
+  text-align: center;
+align-items: center;
+  position: relative;
+  border-radius: 50%;
+  width: 1vw;
+  height: 1vw;
+  overflow: hidden;
+  margin-top: 0vw;
+  margin-right: 0.4vw;
+  margin-top: 0;
+  color: #EDEFF2;
+  }
 
 .r-circle h4{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
 
-  }
-
-  /* Additional styling for demonstration purposes */
-  .r-circle {
-    border: 2px solid #EDEFF2;
-  }
-
-  #r-4{
-    color:#EDEFF2;
-    font-size: 10px;
- }
-
-
-  #col2-txt{
-
-  }
-
-  #col2-a {
-    color: #EDEFF2;
-    margin-bottom: 2vw;
-    width: 5vw;
-    text-decoration: underline;
-    text-decoration-color:#B9F5FF;
-    transition: 1s;
-  }
-
-  #col2-a:hover{
-    color: #EDEFF2;
-    /* padding: 0%; */
-    background: #1179BF;
-    border:none;
-    text-decoration: underline;
-  }
-
-  #column-3{
-    padding-top: 3vw;;
-    margin-left: 3vw;
-    width: 13vw;
-    margin-right: 2vw;
-    color:#EDEFF2;
-    margin-top: 2vw;;
-   border-top: 0.1px solid #B9F5FF;
 }
 
-#colum-h5{
+
+.r-circle {
+  border: 2px solid #EDEFF2;
 }
+
+#r-4{
+  color:#EDEFF2;
+  font-size: 10px;
+}
+
+#col2-a {
+  color: #EDEFF2;
+  margin-bottom: 2vw;
+  width: 5vw;
+  text-decoration: underline;
+  text-decoration-color:#B9F5FF;
+  transition: 1s;
+  margin-left: 0;
+}
+
+#col2-a:hover{
+  color: #EDEFF2;
+  /* padding: 0%; */
+  background: #1179BF;
+  border:none;
+  text-decoration: underline;
+}
+
+#column-3{
+  padding-top: 3vw;;
+  margin-left: 3vw;
+  width: 13vw;
+  margin-right: 2vw;
+  color:#EDEFF2;
+  margin-top: 2vw;;
+ border-top: 0.1px solid #B9F5FF;
+}
+
+/* #colum-h5{
+} */
 
 
 
 #l-footer{
-    width: 10vw;
+  width: 10vw;
 display: flex;
 flex-direction: row;
 flex-wrap: nowrap;
@@ -518,437 +519,429 @@ justify-content: space-evenly;
 
 
 #left-img{
-    margin-top: 2vw;
-    border-radius: 50%;
-    height: 3vw;
+  margin-top: 2vw;
+  border-radius: 50%;
+  height: 3vw;
 }
 
 #img-p{
-    margin-bottom:0vw;
-    height: 1vw;
-    width: 10vw;
-   margin-top: 3vw;
-   margin-left: 1vw;
+  margin-bottom:0vw;
+  height: 1vw;
+  width: 10vw;
+ margin-top: 3vw;
+ margin-left: 1vw;
 }
 
 
 #foot{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-top:15vw;
-    width: 100vw;
-   height: auto;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top:15vw;
+  width: 100vw;
+ height: auto;
+  align-items: center;
+  justify-content: center;
 }
-
 
 
 #terms-txt{
-  color: #31708F;
-  display: flex;
-  flex-direction: row;
-   width: 100vw;
-   justify-content: center;
+display: flex;
+flex-direction: row;
+ width: 100vw;
+ justify-content: center;
 }
 
 #terms{
-  margin:0;
+margin:0;
+color: #31708F;
+margin-left: 0.5vw;
 }
 
 #terms,a{
-   text-decoration: none;
-}
-#terms,a:hover{
-    text-decoration: none;
-    pointer-events: none; 
+ text-decoration: none;
 }
 
 
-#centeredstop{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 0;
-  margin-left:2vw;
-  margin-right: 2vw;
-    font-size: 2vw;
-}
-
-
+/*Media queries*/
+/*for large screens*/
 
 @media screen and (max-width: 2000px) {
-    html, body {
-      font-size: 1.2vw; 
+  html, body {
+    font-size: 1.2vw; 
+  }
+
+  #form-card{
+      height: 59vw;
+      width: 55vw;
+  }
+  
+  #left{
+      height: 59vw;
+      width: 28vw;
+  }
+  
+  #column-3{
+      width: 20vw;
+     }
+
+     #colum2-tick{
+      width: 18vw;
+      font-size:0.5;
+      display: inline-block;
+      margin-bottom: 1.2vw;
+    
     }
 
-    #form-card{
-        height: 59vw;
-        width: 55vw;
+    .btn{
+      font-size: 2vw;
     }
-    
-    #left{
-        height: 59vw;
-        width: 28vw;
-    }
-    
-    #column-3{
-        width: 20vw;
-       }
-
-       #colum2-tick{
-        width: 18vw;
-        font-size:0.5;
-        display: inline-block;
-        margin-bottom: 1.2vw;
-      
-      }
-    
+  
 }
 
 
+/*for tabs*/
 @media screen and (max-width: 768px) {
-    html, body {
-      font-size: 1.8vw; 
-    }
+  html, body {
+    font-size: 1.8vw; 
+  }
 
 
 #form-card{
-    height: 75vw;
-    width: 65vw;
+  height: 75vw;
+  width: 65vw;
 }
 
 #left{
-    height: 75vw;
-    width: 28vw;
+  height: 75vw;
+  width: 28vw;
 }
 
 
 
 
 #colum2-tick{
-    width: 18vw;
-    font-size:0.5;
-    display: inline-block;
-    margin-bottom: 1.2vw;
-  
-  }
+  width: 18vw;
+  font-size:0.5;
+  display: inline-block;
+  margin-bottom: 1.2vw;
+
+}
 
 
-  .r-circle{
-    width: 1.4vw;
-    height: 1.4vw;
-     }
-
-
-     #col2-txt{
-        font-size: 1vw;
-     }
-
-    #col2-a{
-        font-size: 1vw;
-    }
-
-   #column-3{
-    width: 18vw;
+.r-circle{
+  width: 1.4vw;
+  height: 1.4vw;
    }
 
-   .btn{
-    background-color: #038E7D;
-    color: white;
-    padding: 5px;
-    margin: 2vw 0;
-    margin-left: 4vw;;
-    border: none;
-    width: 70%;
-    cursor: pointer;
-    font-size: 12px;
-    border-radius: 3px;
-    height: 3vh;
+
+   #col2-txt{
+      font-size: 1vw;
+   }
+
+  #col2-a{
+      font-size: 1vw;
+  }
+
+ #column-3{
+  width: 18vw;
+ }
+
+ .btn{
+  background-color: #038E7D;
+  color: white;
+  padding: 5px;
+  margin: 2vw 0;
+  margin-left: 4vw;;
+  border: none;
+  width: 70%;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 3px;
+  height: 3vh;
 }
 
 
 #foot-btn{
-    margin-top: 1vw;
-    margin-left: 11vw;
-  color: #FFFFFF;
-  font-size: 1vw;
-  border: none;
-  }
-  
+  margin-top: 1vw;
+  margin-left: 11vw;
+color: #FFFFFF;
+font-size: 1vw;
+border: none;
+}
+
 
 
 }
 
 
 @media screen and (max-width: 550px) {
-    html, body {
-      font-size: 1.8vw; 
-    }
-   
-    #logo{
-    max-width: 50%;
-    height: auto;
-    }
-
-
-    #form-card{
-        margin-top: 100px;
-        height: 80vw;
-        width: 75vw;
-    }
-    
-  .name-section{
+  html, body {
+    font-size: 1.8vw; 
+  }
+ 
+  #logo{
+  max-width: 50%;
+  height: auto;
   }
 
-    #left{
-        height: 80vw;
-        width: 28vw;
-    }
 
-     #left-text{
-        margin-top: 8vw;
-     }
-
-    #colum2-tick{
-        width: 18vw;
-        font-size:0.5;
-        display: inline-block;
-        margin-bottom: 1.2vw;
-      
-      }
-     
-      #pay-section{
-        width: 10
-      }
-
-   #creditCard{ 
-    margin-left: 2vw;
-    }
-
-
-    #basic-info{
-        padding-left: 2vw;;
-    }
-
-      .circle{
-         width: 2.5vw;
-        height: 2.5vw;
-        overflow: hidden;
-        margin-top: 1.4vh;
-        margin-right: 1vw;;
-    }
-
-
-      .ft-circle{
-        width: 1.5vw;
-        height: 1.5vw;
-        overflow: hidden;
-        margin-top: 0vw;
-        }
-    
-   
-      .r-circle{
-        width: 1.8vw;
-        height: 1.8vw;
-         }
-    
-    
-         #col2-txt{
-            font-size: 1vw;
-         }
-    
-        #col2-a{
-            font-size: 1vw;
-        }
-    
-       #column-3{
-        width: 18vw;
-       }
-       
-       #basic-info{
-        height: 4vh;
-    }
-
-    #email-box{
-        margin-left: 6vw;;
-    }
-
-  input{
-    font-size: 1.6vw;
+  #form-card{
+      margin-top: 100px;
+      height: 80vw;
+      width: 75vw;
   }
-#expirationDate{
-    width:6vw;
+  
+.name-section{
 }
-  #cvv{
-    width: 5vw;
+
+  #left{
+      height: 80vw;
+      width: 28vw;
   }
+
+   #left-text{
+      margin-top: 8vw;
+   }
+
+  #colum2-tick{
+      width: 18vw;
+      font-size:0.5;
+      display: inline-block;
+      margin-bottom: 1.2vw;
+    
+    }
+   
+    #pay-section{
+      width: 10
+    }
+
+ #creditCard{ 
+  margin-left: 2vw;
+  }
+
+
+  #basic-info{
+      padding-left: 2vw;;
+  }
+
+    .circle{
+       width: 2.5vw;
+      height: 2.5vw;
+      overflow: hidden;
+      margin-top: 1.4vh;
+      margin-right: 1vw;;
+  }
+
+
+    .ft-circle{
+      width: 1.5vw;
+      height: 1.5vw;
+      overflow: hidden;
+      margin-top: 0vw;
+      }
+  
+ 
+    .r-circle{
+      width: 1.8vw;
+      height: 1.8vw;
+       }
+  
+  
+       #col2-txt{
+          font-size: 1vw;
+       }
+  
+      #col2-a{
+          font-size: 1vw;
+      }
+  
+     #column-3{
+      width: 18vw;
+     }
+     
+     #basic-info{
+      height: 4vh;
+  }
+
+  #email-box{
+      margin-left: 6vw;;
+  }
+
+input{
+  font-size: 1.6vw;
+}
+#expirationDate{
+  width:6vw;
+}
+#cvv{
+  width: 5vw;
+}
 #credit-input{
-    width: 30vw;
+  width: 30vw;
 }
 /* 
 #foot-btn{
-    margin-top: 1vw;
-    margin-left: 11vw;
-  color: #FFFFFF;
-  font-size: 0.5vw;
-  border: none;
-  }
-   */
+  margin-top: 1vw;
+  margin-left: 11vw;
+color: #FFFFFF;
+font-size: 0.5vw;
+border: none;
+}
+ */
 
 
 }
 
-
+/*for phonees*/
 @media screen and (max-width: 425px) {
-    html, body {
-      font-size: 1.8vw; 
-    }
-
-  #navbar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+  html, body {
+    font-size: 1.8vw; 
   }
 
-    #logo{
-        max-width: 50%;
-        height: auto;
-        }
-    
-    #form-card{
-        display: flex;
-        margin-top: 100px;
-        height: 90vw;
-        width: 75vw;
-    }
-    
-  .name-section{
-  }
+#navbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 
-    #left{
-        height: 90vw;
-        width: 28vw;
-    }
-
-     #left-text{
-        margin-top: 8vw;
-     }
-
-    #colum2-tick{
-        width: 18vw;
-        font-size:0.5;
-        display: inline-block;
-        margin-bottom: 1.2vw;
-      
+  #logo{
+      max-width: 50%;
+      height: auto;
       }
-     
-      #pay-section{
-    
-        width: 10
-      }
-
-   #creditCard{ 
-    margin-left: 2vw;
-    }
-
-
-    #basic-info{
-        padding-left: 2vw;;
-    }
-
-      .circle{
-         width: 2.5vw;
-        height: 2.5vw;
-        overflow: hidden;
-        margin-top: 1.4vh;
-        margin-right: 1vw;;
-    }
-
-
-      .ft-circle{
-        width: 1.5vw;
-        height: 1.5vw;
-        overflow: hidden;
-        margin-top: 0vw;
-        }
-    
-   
-      .r-circle{
-        width: 1.8vw;
-        height: 1.8vw;
-         }
-
-         .btn{
-            background-color: #038E7D;
-            color: white;
-            padding: 4px;
-            margin: 2vw 0;
-            margin-left: 4vw;;
-            border: none;
-            width: 70%;
-            cursor: pointer;
-            font-size: 6px;
-            border-radius: 3px;
-            height: 2vh;
-        }
-
-
-        #foot-btn{
-            margin-top: 1vw;
-            margin-left: 9vw;
-            /* background: #566473; */
-            border-radius: 5px;
-          background-color: #DADADA;
-           font-size: 1.8vw;
-           color: #FFFFFF;
-          }
-
-         #col2-txt{
-            font-size: 1vw;
-         }
-    
-        #col2-a{
-            font-size: 1vw;
-        }
-    
-       #column-3{
-        width: 18vw;
-       }
-       
-       #basic-info{
-        height: 4vh;
-    }
-
-    #email-box{
-        margin-left: 6vw;;
-    }
-
-  input{
-    font-size: 1.6vw;
-  }
-#expirationDate{
-    width:6vw;
-}
-  #cvv{
-    width: 5vw;
-  }
-#credit-input{
-    width: 30vw;
-}
-
-}
-
-
-
-@media screen and (max-width: 425px) {
-    html, body {
-      font-size: 1.8vw; 
-    }
   
-    #form-card{
-        height:
+  #form-card{
+      display: flex;
+      margin-top: 100px;
+      height: 90vw;
+      width: 75vw;
+  }
+  
+.name-section{
+}
+
+  #left{
+      height: 90vw;
+      width: 28vw;
+  }
+
+   #left-text{
+      margin-top: 8vw;
+   }
+
+  #colum2-tick{
+      width: 18vw;
+      font-size:0.5;
+      display: inline-block;
+      margin-bottom: 1.2vw;
+    
     }
+   
+    #pay-section{
+  
+      width: 10
+    }
+
+ #creditCard{ 
+  margin-left: 2vw;
+  }
+
+
+  #basic-info{
+      padding-left: 2vw;;
+  }
+
+    .circle{
+       width: 2.5vw;
+      height: 2.5vw;
+      overflow: hidden;
+      margin-top: 1.4vh;
+      margin-right: 1vw;;
+  }
+
+
+    .ft-circle{
+      width: 1.5vw;
+      height: 1.5vw;
+      overflow: hidden;
+      margin-top: 0vw;
+      }
+  
+ 
+    .r-circle{
+      width: 1.8vw;
+      height: 1.8vw;
+       }
+
+       .btn{
+          background-color: #038E7D;
+          color: white;
+          padding: 4px;
+          margin: 2vw 0;
+          margin-left: 4vw;;
+          border: none;
+          width: 70%;
+          cursor: pointer;
+          font-size: 6px;
+          border-radius: 3px;
+          height: 2vh;
+      }
+
+
+      #foot-btn{
+          margin-top: 1vw;
+          margin-left: 9vw;
+          /* background: #566473; */
+          border-radius: 5px;
+        background-color: #DADADA;
+         font-size: 1.8vw;
+         color: #FFFFFF;
+        }
+
+       #col2-txt{
+          font-size: 1vw;
+       }
+  
+      #col2-a{
+          font-size: 1vw;
+      }
+  
+     #column-3{
+      width: 18vw;
+     }
+     
+     #basic-info{
+      height: 4vh;
+  }
+
+  #email-box{
+      margin-left: 6vw;;
+  }
+
+input{
+  font-size: 1.6vw;
+}
+#expirationDate{
+  width:6vw;
+}
+#cvv{
+  width: 5vw;
+}
+#credit-input{
+  width: 30vw;
+}
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+  html, body {
+    font-size: 1.8vw; 
+  }
+
+  #form-card{
+      height:
+  }
 
 }
